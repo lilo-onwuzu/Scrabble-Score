@@ -9,7 +9,10 @@ public class Scrabble {
   System.out.println(scrabbleArray[0]);
   Integer score = 0;
   for (Integer index=0; index < scrabbleArray.length; index++){
-      if (scrabbleArray[index] == "d" || scrabbleArray[index] == "g"){
+      if (scrabbleArray[index] == "b" || scrabbleArray[index] == "c" ||
+      scrabbleArray[index] == "m" || scrabbleArray[index] == "p") {
+        score += 3;
+      } else if (scrabbleArray[index] == "d" || scrabbleArray[index] == "g"){
         score += 2;
       } else if (scrabbleArray[index] == "a" || scrabbleArray[index] == "e" ||
       scrabbleArray[index] == "i" || scrabbleArray[index] == "o" ||
