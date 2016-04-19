@@ -34,7 +34,7 @@ public class ScrabbleTest {
   @Test
   public void scoreScrabble_returnScoreForFivePointLetter_1(){
     Scrabble testScrabble = new Scrabble();
-    Integer expected = 4;
+    Integer expected = 5;
     assertEquals(expected, testScrabble.scoreScrabble("k"));
   }
 
