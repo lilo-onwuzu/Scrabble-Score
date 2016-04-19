@@ -28,7 +28,7 @@ public class ScrabbleTest {
   public void scoreScrabble_returnScoreForFourPointLetter_1(){
     Scrabble testScrabble = new Scrabble();
     Integer expected = 4;
-    assertEquals(expected, testScrabble.scoreScrabble("b"));
+    assertEquals(expected, testScrabble.scoreScrabble("f"));
   }
 
 }
