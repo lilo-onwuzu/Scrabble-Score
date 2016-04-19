@@ -31,4 +31,11 @@ public class ScrabbleTest {
     assertEquals(expected, testScrabble.scoreScrabble("f"));
   }
 
+  @Test
+  public void scoreScrabble_returnScoreForFivePointLetter_1(){
+    Scrabble testScrabble = new Scrabble();
+    Integer expected = 4;
+    assertEquals(expected, testScrabble.scoreScrabble("k"));
+  }
+
 }
