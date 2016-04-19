@@ -1,0 +1,7 @@
+The letters A, E, I, O, U, L, N, R, S, T receive a score of 1
+The letters D, G receive a score of 2
+The letters B, C, M, P receive a score of 3
+The letters F, H, V, W, Y receive a score of 4
+The letters K receive a score of 5
+The letters J, X receive a score of 8
+The letters Q, Z receive a score of 10
