@@ -11,45 +11,52 @@ public class ScrabbleTest {
   }
 
   @Test
-  public void scoreScrabble_returnScoreForTwoPointLetter_1(){
+  public void scoreScrabble_returnScoreForTwoPointLetter_2(){
     Scrabble testScrabble = new Scrabble();
     Integer expected = 2;
     assertEquals(expected, testScrabble.scoreScrabble("d"));
   }
 
   @Test
-  public void scoreScrabble_returnScoreForThreePointLetter_1(){
+  public void scoreScrabble_returnScoreForThreePointLetter_3(){
     Scrabble testScrabble = new Scrabble();
     Integer expected = 3;
     assertEquals(expected, testScrabble.scoreScrabble("b"));
   }
 
   @Test
-  public void scoreScrabble_returnScoreForFourPointLetter_1(){
+  public void scoreScrabble_returnScoreForFourPointLetter_4(){
     Scrabble testScrabble = new Scrabble();
     Integer expected = 4;
     assertEquals(expected, testScrabble.scoreScrabble("f"));
   }
 
   @Test
-  public void scoreScrabble_returnScoreForFivePointLetter_1(){
+  public void scoreScrabble_returnScoreForFivePointLetter_5(){
     Scrabble testScrabble = new Scrabble();
     Integer expected = 5;
     assertEquals(expected, testScrabble.scoreScrabble("k"));
   }
 
   @Test
-  public void scoreScrabble_returnScoreForEightPointLetter_1(){
+  public void scoreScrabble_returnScoreForEightPointLetter_8(){
     Scrabble testScrabble = new Scrabble();
     Integer expected = 8;
     assertEquals(expected, testScrabble.scoreScrabble("j"));
   }
 
   @Test
-  public void scoreScrabble_returnScoreForTenPointLetter_1(){
+  public void scoreScrabble_returnScoreForTenPointLetter_10(){
     Scrabble testScrabble = new Scrabble();
     Integer expected = 10;
     assertEquals(expected, testScrabble.scoreScrabble("q"));
+  }
+
+  @Test
+  public void scoreScrabble_returnScoreForWord_5(){
+    Scrabble testScrabble = new Scrabble();
+    Integer expected = 5;
+    assertEquals(expected, testScrabble.scoreScrabble("cat"));
   }
 
 }

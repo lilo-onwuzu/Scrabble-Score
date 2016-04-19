@@ -4,7 +4,7 @@ public class Scrabble {
   public static void main (String[] args) {}
 
   public Integer scoreScrabble (String word) {
-  // char[] scrabbleArray = word.toCharArray();
+  
   String[] scrabbleArray = word.split("");
   System.out.println(scrabbleArray[0]);
   Integer score = 0;
