@@ -9,4 +9,11 @@ public class ScrabbleTest {
     Integer expected = 1;
     assertEquals(expected, testScrabble.scoreScrabble("a"));
   }
+
+  @Test
+  public void scoreScrabble_returnScoreForTwoPointLetter_1(){
+    Scrabble testScrabble = new Scrabble();
+    Integer expected = 2;
+    assertEquals(expected, testScrabble.scoreScrabble("d"));
+  }
 }
