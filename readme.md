@@ -1,28 +1,21 @@
 ## _Title_
-	Epicodus- Java - Rock Paper Scissors
+	Epicodus- Java - Scrabble
 	
 #### _Creator_
 	Lilo Onwuzu 
 	
 #### _Date_
-	04.20.2016
+	04.19.2016
 
 #### _Description_
 	This site written in Java presents a game of Scrabble
-  The letters A, E, I, O, U, L, N, R, S, T receive a score of 1
-
-The letters D, G receive a score of 2
-
-The letters B, C, M, P receive a score of 3
-
-The letters F, H, V, W, Y receive a score of 4
-
-The letters K receive a score of 5
-
-The letters J, X receive a score of 8
-
-The letters Q, Z receive a score of 10
-
+  	The letters A, E, I, O, U, L, N, R, S, T receive a score of 1
+	The letters D, G receive a score of 2
+	The letters B, C, M, P receive a score of 3
+	The letters F, H, V, W, Y receive a score of 4
+	The letters K receive a score of 5
+	The letters J, X receive a score of 8
+	The letters Q, Z receive a score of 10
 	Restful web pages are routered and rendered through the Spark Framework. 
 	Velocity tool is used to create html (with lightweight java code) templates for our Spark routines (get/post etc).
 	VelocityTemplateEngine is used as an adapter to add Velocity templates to our Spark routines.	
